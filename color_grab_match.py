@@ -26,7 +26,7 @@ def click_if_present(matching):
 
 # Example usage
 path = 'button'
-if if_present(path):
+if click_if_present(path):
     print(f"Clicked on {path} image")
 else:
     print(f"{path} image not found")
