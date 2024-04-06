@@ -11,7 +11,7 @@ This repository contains several Python code challenges and their solutions, as 
 - [dict_key_assertions.py](#dict_key_assertionspy)
 - [Squares_Generator.py](#squares_generatorpy)
 - [Image Clicking Automation](#image-clicking-automation)
-
+- [Object Introspection Script](#object-introspection-script)
 
 ## regex_phone_number_finder.py
 
@@ -36,6 +36,18 @@ This project provides a Python script that can automate the process of clicking 
 The `click_if_present()` function takes a `matching` argument, which is the name of the image file (without the extension) stored in the `system_files` directory. It loads the image, captures the current screen, and uses template matching to find the location of the image on the screen. If the image is found, it clicks on the location using `pyautogui.click()`.
 
 To run this project, simply execute the Python script and provide the appropriate image file names in the `system_files` directory.
+
+## Object Introspection Script
+
+Object Introspection:
+Introspection is the automatic process of discovering an object's attributes.
+Python offers this capability through the built-in `dir()` function.
+When `dir()` takes an object as an argument, it returns:
+"an alphabetized list of names comprising (some of) the attributes of the given object, and of attributes reachable from it."
+
+The function returns a list of all the method names of a string object that start with the 'is' prefix
+(the first three such method names are shown below):
+`['isalnum', 'isalpha', 'isascii', ...]`
 
 ## Contributing
 Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
